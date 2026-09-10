@@ -130,6 +130,7 @@ fn f(u: MyUnion) {
 - [Identifier patterns](../patterns.md#identifier-patterns)
 - [Range patterns](../patterns.md#range-patterns)
 - [Reference patterns](../patterns.md#reference-patterns)
+- [Non-reference patterns](../patterns.md#r-patterns.ident.binding.non-reference) matching reference values
 - [Struct](../patterns.md#struct-patterns) and [tuple struct](../patterns.md#tuple-struct-patterns) patterns which correspond to an enum variant
 - [Path patterns](../patterns.md#path-patterns), if the result of expanding the constant into a pattern contains one of the above, or if the expanded pattern could not have been written directly at the location where it is used due to field privacy or `#[non_exhaustive]`.
 
